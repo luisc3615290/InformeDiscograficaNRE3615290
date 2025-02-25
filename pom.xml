@@ -72,7 +72,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.informediscograficanre3615290/com.example.informediscograficanre3615290.HelloApplication
+                                com.example.informediscograficanre3615290/com.example.informediscograficanre3615290.InformeDiscografica
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
