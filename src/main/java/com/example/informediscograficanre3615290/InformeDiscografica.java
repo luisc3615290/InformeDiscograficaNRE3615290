@@ -10,9 +10,11 @@ import java.io.IOException;
 public class InformeDiscografica extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        int canvas_w = 600;
+        int canvas_h = 400;
         FXMLLoader fxmlLoader = new FXMLLoader(InformeDiscografica.class.getResource("Informe-View.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(), canvas_w, canvas_h);
+        stage.setTitle("Informe Discográfica NRE3615290");
         stage.setScene(scene);
         stage.show();
     }
